@@ -106,3 +106,6 @@ dist
 .cache
 .*.swp
 .DS_Store
+
+# Parcel JS cache files
+.parcel-cache/
