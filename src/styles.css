@@ -1,4 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background: linear-gradient(180deg, #05cc7c 0%, #78f8be 100%);
+}
+
 h1 {
   color: hotpink;
   font-family: cursive;
+}
+
+.nabla-header{
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
