@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   
-  background: linear-gradient(180deg, #05cc7c 0%, #78f8be 100%);
+  background: linear-gradient(135deg, #78f8be 0%, #087e49 100%);
 }
 
 h1 {
@@ -11,21 +11,34 @@ h1 {
   font-family: cursive;
 }
 
-.nabla-header{
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
+.header {
+  font-family: "Galada", cursive;
   font-weight: 400;
-  font-size: 4rem;
   font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
+  font-size: 3rem;
+  margin: 5px 0px;
+  color: #fff;
 }
+
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
+}
+
+.header-container {
+  
+  /* background color as gradient starting with #ff0088 and ending with #ff8c00 */
+  background: linear-gradient(180deg, #ed1689 0%, #9c155d 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+  margin: 20px;
+  border: 2px solid #424242;
 }
